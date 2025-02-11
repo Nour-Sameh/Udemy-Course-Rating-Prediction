@@ -8,15 +8,15 @@ warnings.filterwarnings('ignore')
 def load_resources():   
     # Load encoders and scaler
     #le_title = joblib.load('../workspace/le_title.pkl')
-    le_title = joblib.load(r'D:\Data Scince Bootcamb\day2\Day2\workshop\le_title.pkl')
+    le_title = joblib.load(r'workshop\le_title.pkl')
     #le_wishlist = joblib.load('../workspace/le_wishlist.pkl')
-    le_wishlist = joblib.load(r'D:\Data Scince Bootcamb\day2\Day2\workshop\le_wishlist.pkl')
+    le_wishlist = joblib.load(r'workshop\le_wishlist.pkl')
     #scaler = joblib.load('../workspace/scaler.pkl')
-    scaler = joblib.load(r'D:\Data Scince Bootcamb\day2\Day2\workshop\scaler.pkl')
+    scaler = joblib.load(r'workshop\scaler.pkl')
     
     # Load model
     #model = joblib.load('../workspace/rf_model.pkl')
-    model = joblib.load(r'D:\Data Scince Bootcamb\day2\Day2\workshop\rf_model.pkl')
+    model = joblib.load(r'workshop\rf_model.pkl')
 
     
     return le_title, le_wishlist, scaler, model
